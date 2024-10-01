@@ -1,0 +1,115 @@
+h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    border-bottom: #de0618 solid 2px;
+    box-shadow: 0px 4px 8px #de0618;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.navbar .navbar-brand{
+    color:#484848 !important;
+    font-size: 24px;
+}
+.nav-link{
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: #de0618 !important;
+}
+#header{
+    background:url('images/photo1.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+h1{
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+#header .overlay{
+    background-color: rgba(26,0,26,.4);
+    height: 100vh;
+
+}
+.btn-outline-secondary{
+    cursor: pointer;
+}
+.btn-outline-secondary:hover{
+    background-color: 	#ff0000;
+}
+#features .fa{
+    font-size: 40px;
+}
+#feature i{
+    color:	#ff0000;
+    cursor: pointer;
+}
+#feature h3:hover{
+    color:	#ff0000;
+    cursor: pointer;
+}
+
+#footer{
+    background: #111;
+    width: 100%;
+}
+#footer .continer{
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social{
+    margin: 20px 0;
+}
+.social a{
+    color: white;
+    margin-right: 25px;
+    font-size: 22px;
+    text-decoration: none;
+}
+.conten h2{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+#footer .container .content{
+    padding: 10px 20px;
+    color: white;
+}
+.second{
+    margin-left: 180px;
+}
+.my-video {
+    width: 100%;        
+    max-width: 600px;   
+    height: auto;      
+    border: 5px solid black; 
+    border-radius: 10px; 
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    object-fit: cover;  
+    margin:0 auto;
+  }
+  .video-container {
+    display: flex;             
+    justify-content: center;    
+    align-items: center;       
+    height: 50vh;            
+    background-color: #de0618;
+  
+  }
+  #footer .col-md-6 .copy{
+    text-align: center;
+
+  }
